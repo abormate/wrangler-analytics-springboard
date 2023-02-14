@@ -45,4 +45,4 @@ for element in app_ratings:
 # Translate the following pattern into Python syntax: for each element in the app_names list, print the app name.
 #
 
-
+app_names = ['Facebook', 'Instagram', 'Clash of Clans', 'Fruit Ninja Classic', 'Minecraft: Pocket Edition']
