@@ -39,3 +39,10 @@ app_ratings = [3.5, 4.5, 4.5, 4.5, 4.5]
 
 for element in app_ratings:
     print(element)
+    
+#
+#
+# Translate the following pattern into Python syntax: for each element in the app_names list, print the app name.
+#
+
+
