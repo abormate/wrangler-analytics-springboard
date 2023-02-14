@@ -31,3 +31,11 @@ print(avg_rating)
 #
 #
 
+# for loop -- contruction, logic
+#
+#
+
+app_ratings = [3.5, 4.5, 4.5, 4.5, 4.5]
+
+for element in app_ratings:
+    print(element)
