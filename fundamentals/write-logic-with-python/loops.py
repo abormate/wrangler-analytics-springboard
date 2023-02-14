@@ -25,3 +25,8 @@ avg_rating = (app_data_set[0][-1] + app_data_set[1][-1] +
               app_data_set[4][-1]) / 5
 
 print(avg_rating)
+
+# data-set source link:
+# --> https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps
+#
+#
