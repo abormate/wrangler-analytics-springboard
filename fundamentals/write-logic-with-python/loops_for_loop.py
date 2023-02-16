@@ -68,6 +68,7 @@ print(avg_rating)
 #
 #
 # The same could be accomplished as on Code a3 -- with for loops 
+# Below, we see how we can translate that process into Python syntax and print the result of each iteration:
 
 row_1 = ['Facebook', 0.0, 'USD', 2974676, 3.5]
 row_2 = ['Instagram', 0.0, 'USD', 2161558, 4.5]
