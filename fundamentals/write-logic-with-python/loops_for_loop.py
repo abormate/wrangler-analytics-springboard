@@ -112,4 +112,15 @@ Output
 ['Minecraft: Pocket Edition', 6.99, 'USD', 522012, 4.5]
 '''
 
+'''
+Using the technique above requires us to write a line of code for every row in the dataset. 
+But using the for row in app_data_set technique requires us to write only two lines of code regardless of the number of rows in the dataset 
+— the dataset can have five rows or one million!
+'''
+
+
+
+
+
+
 
