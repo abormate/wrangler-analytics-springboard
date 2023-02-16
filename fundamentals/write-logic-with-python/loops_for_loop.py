@@ -91,6 +91,16 @@ for row in app_data_set:
 # 4.5
 #
 
+# With only two lines of code, we printed the contents of all five lists in the dataset. 
+# Compare that to the following approach with equivalent results:
+
+app_data_set = [row_1, row_2, row_3, row_4, row_5]
+
+print(app_data_set[0])
+print(app_data_set[1])
+print(app_data_set[2])
+print(app_data_set[3])
+print(app_data_set[4])
 
 
 
