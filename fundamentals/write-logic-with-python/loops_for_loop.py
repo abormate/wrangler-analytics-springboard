@@ -65,7 +65,7 @@ print(avg_rating)
 
 # outputs --> 4.3
 #
-
+#
 #
 # The same could be accomplished as on Code a3 -- with for loops 
 
@@ -81,12 +81,14 @@ for row in app_data_set:
     rating = row[-1]
     print(rating)
 
-
-
-
-
-
-
+#
+# Output
+# 3.5
+# 4.5
+# 4.5
+# 4.5
+# 4.5
+#
 
 
 
