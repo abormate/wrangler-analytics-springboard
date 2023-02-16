@@ -48,6 +48,7 @@ for element in app_ratings:
 app_names = ['Facebook', 'Instagram', 'Clash of Clans', 'Fruit Ninja Classic', 'Minecraft: Pocket Edition']
 
 # Determine average rating of apps in sample data of only 5 rows
+# Code a3
 
 row_1 = ['Facebook', 0.0, 'USD', 2974676, 3.5]
 row_2 = ['Instagram', 0.0, 'USD', 2161558, 4.5]
@@ -63,6 +64,11 @@ avg_rating = (app_data_set[0][-1] + app_data_set[1][-1] +
 print(avg_rating)
 
 # outputs --> 4.3
+#
+
+#
+# The same could be accomplished as on Code a3 -- with for loops 
+
 
 
 
