@@ -102,7 +102,14 @@ print(app_data_set[2])
 print(app_data_set[3])
 print(app_data_set[4])
 
-
-
+# Output
+'''
+Output
+['Facebook', 0.0, 'USD', 2974676, 3.5]
+['Instagram', 0.0, 'USD', 2161558, 4.5]
+['Clash of Clans', 0.0, 'USD', 2130805, 4.5]
+['Fruit Ninja Classic', 1.99, 'USD', 698516, 4.5]
+['Minecraft: Pocket Edition', 6.99, 'USD', 522012, 4.5]
+'''
 
 
