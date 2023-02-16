@@ -139,6 +139,14 @@ app_data_set = [row_1, row_2, row_3, row_4, row_5]
 for rating_count in app_data_set:
     print(rating_count[3])
 
+# Output
+'''
+2974676
+2161558
+2130805
+698516
+522012
+'''
 
 
 
