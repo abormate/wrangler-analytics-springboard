@@ -33,6 +33,8 @@ For the third iteration, the value is the third element of the iterable (if the 
 # 4
 
 '''
+For code a-02 found in the following code block:
+
 The code outside the loop body can interact with the code inside the loop body. For instance, in the code below, we do the following:
 
 -- Initialize a variable a_sum with a value of zero outside the loop body.
@@ -46,5 +48,11 @@ At the end of the loop, a_sum has the value 9, which is equivalent to the sum of
 
 '''
 
+# code a-02
+
+a_list = [1, 3, 5]
+
+a_sum = 0
+for value in a_list:
 
 
