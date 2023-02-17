@@ -5,7 +5,7 @@
 Now that we know how to use for loops to print list elements, let's learn how to use for loops to sum values in a list and store the result. 
 To store the results from iterating over a list, we need to learn more about for loop structure. These are the structural parts of a for loop:
 '''
-# example
+# example a-01
 
 a_list = [1, 3, 5]      # iteration variable
 
@@ -24,6 +24,13 @@ For the second iteration, the value is the second element of the iterable (if th
 For the third iteration, the value is the third element of the iterable (if the iterable is the list [1, 3, 5], then the value will be 5).
 ''''
 
+# outputs for code example above a-01 
+# 1
+# 0
+# 3
+# 2
+# 5
+# 4
 
 
 
