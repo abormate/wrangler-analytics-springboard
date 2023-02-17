@@ -59,4 +59,11 @@ for value in a_list:
   
 print(sum)
 
+# Outputs for code a-02
+# ----------------------
+# 1
+# 4
+# 9
+# 9
+
 
