@@ -52,7 +52,11 @@ At the end of the loop, a_sum has the value 9, which is equivalent to the sum of
 
 a_list = [1, 3, 5]
 
-a_sum = 0
+sum = 0
 for value in a_list:
+  sum = sum + value
+  print(sum)
+  
+print(sum)
 
 
