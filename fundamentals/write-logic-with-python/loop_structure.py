@@ -38,9 +38,12 @@ The code outside the loop body can interact with the code inside the loop body. 
 -- Initialize a variable a_sum with a value of zero outside the loop body.
 -- We loop (or iterate) over a_list. For every iteration of the loop, we do the following:
 
--- -- Perform an addition (inside the loop body) between the current value of the iteration variable value and the current value stored in a_sum (a_sum was defined outside the loop body).
+-- -- Perform an addition (inside the loop body) between the current value of the iteration variable value and the current value stored in a_sum 
+      (a_sum was defined outside the loop body).
 -- -- Assign the result of the addition back to a_sum (inside the loop body).
--- -- Print the value of the a_sum variable (inside the loop body). Notice that the value of a_sum changes after each addition. At the end of the loop, a_sum has the value 9, which is equivalent to the sum of the numbers in a_list (1 + 3 + 5).
+-- -- Print the value of the a_sum variable (inside the loop body). Notice that the value of a_sum changes after each addition. 
+At the end of the loop, a_sum has the value 9, which is equivalent to the sum of the numbers in a_list (1 + 3 + 5).
+
 '''
 
 
