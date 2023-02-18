@@ -24,3 +24,11 @@ print(opened_file)
 # Output
 
 <_io.TextIOWrapper name='AppleStore.csv' mode='r' encoding='UTF-8'>
+
+'''
+open('AppleStore.csv') returned the output <_io.TextIOWrapper name='AppleStore.csv' mode='r' encoding='UTF-8'>. The output is an object. 
+For now, all we have to keep in mind is that the AppleStore.csv file will open once open('AppleStore.csv') has finished running.
+
+Once we've opened the file, we read it in using a function called reader(). We import the reader() function from the csv module using 
+the code from csv import reader (a module is a collection of functions and variables).
+'''
