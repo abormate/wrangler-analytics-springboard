@@ -82,3 +82,13 @@ apps_data = list(read_file)
 
 print(len(apps_data))
 
+#
+# Output
+#
+
+7198
+
+'''
+As a side note, the AppleStore.csv file is currently located on our servers. In a separate lesson, we'll help you set up your own environment 
+locally — you'll be able to run Python code and open the AppleStore.csv on your own local computer.
+'''
