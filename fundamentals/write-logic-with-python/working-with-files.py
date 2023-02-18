@@ -74,4 +74,11 @@ which describes the column names (the first row).
 #
 #
 
+opened_file = open('AppleStore.csv')
+
+from csv import reader
+read_file = reader(opened_file)
+apps_data = list(read_file)
+
+print(len(apps_data))
 
