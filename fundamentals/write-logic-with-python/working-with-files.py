@@ -60,6 +60,10 @@ apps_data = list(read_file)
 
 #
 #
+'''
+The apps_data variable above is a list of lists, and it stores a dataset of 7,197 rows and 16 columns. Below, we print only the 
+first five rows of apps_data by using list slicing (we colored the output of each list differently to help you read the output more easily):
+'''
 #
-
+#
 
