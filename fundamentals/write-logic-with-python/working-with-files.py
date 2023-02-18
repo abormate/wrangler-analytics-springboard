@@ -32,3 +32,22 @@ For now, all we have to keep in mind is that the AppleStore.csv file will open o
 Once we've opened the file, we read it in using a function called reader(). We import the reader() function from the csv module using 
 the code from csv import reader (a module is a collection of functions and variables).
 '''
+
+opened_file = open('AppleStore.csv')
+
+from csv import reader
+read_file = reader(opened_file)
+print(read_file)
+
+#
+# Output from above code
+#
+
+<_csv.reader object at 0x7f55b0a379e0>
+
+#
+'''
+
+'''
+
+
