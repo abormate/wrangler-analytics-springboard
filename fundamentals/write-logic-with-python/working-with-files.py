@@ -66,4 +66,12 @@ first five rows of apps_data by using list slicing (we colored the output of eac
 '''
 #
 #
+'''
+Although there are 7,197 rows (apps) in our dataset, len(apps_data) indicates there are 7,198 rows because it also considers the header row, 
+which describes the column names (the first row).
+'''
+#
+#
+#
+
 
