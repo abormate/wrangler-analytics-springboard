@@ -47,7 +47,12 @@ print(read_file)
 
 #
 '''
-
+Just like open('AppleStore.csv'), reader(opened_file) returned an object. Now that we've read the file, we can transform it into 
+a list of lists using the list() function:
 '''
+#
+#
+
+
 
 
