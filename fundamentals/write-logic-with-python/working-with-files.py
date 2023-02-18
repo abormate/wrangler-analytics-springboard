@@ -92,3 +92,36 @@ print(len(apps_data))
 As a side note, the AppleStore.csv file is currently located on our servers. In a separate lesson, we'll help you set up your own environment 
 locally — you'll be able to run Python code and open the AppleStore.csv on your own local computer.
 '''
+
+#
+# Practice
+#
+# ------------------------------ #
+#
+
+'''
+Open the AppleStore.csv file, and store it as a list of lists.
+
+1. Open the file using the open() function. Save the output to a variable named opened_file.
+
+2. Read in the opened file using the reader() function (we've already imported reader() for you from the csv module). Save the output to a variable named read_file.
+
+3. Transform the read-in file to a list of lists using the list() function. Save the list of lists to a variable named apps_data.
+
+4. Explore apps_data. You could do the following:
+
+-- -- Print its length using the len() function.
+-- -- Print the first row (the row describing column names).
+-- -- Print the second and the third row (try to use list slicing here).
+
+'''
+
+from csv import reader
+
+opened_file = open('AppleStore.csv')
+read_file = reader(opened_file)
+apps_data = list(read_file)
+
+print(len(apps_data))
+print(apps_data[0])
+print(apps_data[1:2])
