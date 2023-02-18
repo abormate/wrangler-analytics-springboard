@@ -7,4 +7,15 @@ which amounts to 115,152 (7,197 × 16) data points — typing all that would tak
 which could lead to wrong data and false conclusions. Fortunately, we can leverage Python to store this dataset as a list of lists 
 in a matter of seconds.
 '''
+'''
+A dataset is generally stored as a file in a computer — the dataset above is stored as a file named AppleStore.csv. 
+We start by opening the file using the open() function:
+'''
+#
+#
+# Open file with open() function:
+#
+
+opened_file = open('AppleStore.csv')
+print(opened_file)
 
