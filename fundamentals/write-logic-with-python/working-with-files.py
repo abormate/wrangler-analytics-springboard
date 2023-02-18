@@ -19,3 +19,8 @@ We start by opening the file using the open() function:
 opened_file = open('AppleStore.csv')
 print(opened_file)
 
+#
+#
+# Output
+
+<_io.TextIOWrapper name='AppleStore.csv' mode='r' encoding='UTF-8'>
