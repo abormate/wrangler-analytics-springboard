@@ -114,7 +114,13 @@ print(type(apps_data[1][7]))
 # 3.5
 # <class 'str'>
 
-
+# Practice exercise
+"""
+This is an experimentation screen. There is no answer-checking. 
+Use this screen to explore the errors highlighted above on your own. 
+We've opened the file and read the data into Python for you. We've also 
+included for the first error we saw above.
+"""
 
 
 
