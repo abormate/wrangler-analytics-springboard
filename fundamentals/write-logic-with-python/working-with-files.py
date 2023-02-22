@@ -23,7 +23,7 @@ print(opened_file)
 #
 # Output
 
-<_io.TextIOWrapper name='AppleStore.csv' mode='r' encoding='UTF-8'>
+# <_io.TextIOWrapper name='AppleStore.csv' mode='r' encoding='UTF-8'>
 
 '''
 open('AppleStore.csv') returned the output <_io.TextIOWrapper name='AppleStore.csv' mode='r' encoding='UTF-8'>. The output is an object. 
@@ -43,7 +43,7 @@ print(read_file)
 # Output from above code
 #
 
-<_csv.reader object at 0x7f55b0a379e0>
+# <_csv.reader object at 0x7f55b0a379e0>
 
 #
 '''
