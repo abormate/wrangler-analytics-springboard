@@ -150,8 +150,7 @@ most 4 numbers side by side.
 
 // ------------------------------------------- //
 
-// lesson 31: parentheses grouping
-
+// lesson 32: parentheses grouping
 /*
 We can group an expression and use these groups to reference or enforce some rules. 
 To group an expression, we enclose () in parentheses. For now just group haa below.
@@ -165,3 +164,16 @@ To group an expression, we enclose () in parentheses. For now just group haa bel
 
 // ------------------------------------------- //
 
+// lesson 33: referencing a group 
+/*
+The words ha and haa are grouped below. The first group is used by writing \1 to avoid rewriting. 
+Here 1 denotes the order of grouping. Type \2 at the end of the expression to refer to the second group.
+*/
+
+// sample line of text for evaluation 
+// ha-ha,haa-haa
+
+// actual regular expression input following
+// ----------->> //      (ha)-\1,(haa)-\2
+
+// ------------------------------------------- //
