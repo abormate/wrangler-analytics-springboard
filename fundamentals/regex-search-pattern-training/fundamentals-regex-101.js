@@ -134,3 +134,21 @@ Write the expression using curly braces {} that will find texts containing at le
 
 // ------------------------------------------- //
 
+// lesson 30: curly-braces -- 03
+// practice 006: curly braces
+
+/*
+Write the expression using curly braces {} that will find texts containing at least 1 and at 
+most 4 numbers side by side.
+*/
+
+// sample text -- where regex search pattern will be applied to
+// Release 10/9/2021
+
+// actual regex 
+// ---------->>> //     [0-9]{1,4}
+
+// ------------------------------------------- //
+
+
+
