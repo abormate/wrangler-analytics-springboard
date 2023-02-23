@@ -263,8 +263,22 @@ Basic Omellette Recipe
 // Lesson 38: Dollar Sign $
 // Selecting only the end of the line
 
+/*
+Let's use the $ sign after the html value to find the html texts only at the end of the line.
+*/
 
+/*
+Multi-line of sample text to evaluate with regex input:
 
+https://domain.com/what-is-html.html
+https://otherdomain.com/html-elements
+https://website.com/html5-features.html
+*/
 
+// actual regex to input and process
+// -------->> //       html$
 
+// END -- Lesson 38
+
+// ----------------------------------------- //
 
