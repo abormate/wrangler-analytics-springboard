@@ -35,10 +35,21 @@ braces {n, }. For example, indicate that the following letter e can occur at lea
 // ber beer beeer beeeer
 
 // actual regex
-// ------>>>> //     be{3,}r
+// -------->>>> //     be{3,}r
 
-// ----------------------------------------- // 
+// ------------------------------------------ // 
 
+// Curly braces - part 3 - lesson 23
+/*
+To express the occurrence of a character in a certain number range, we write curly braces {x,y} 
+with the interval we want to go to the end. For example, indicate that the following letter e can 
+only occur between 1 and 3.
+*/
 
+// sample text -- tester, line of text where search pattern is applied to
+// ber beer beeer beeeer
 
+// actual regex 
+// --------->>> //    be{1,3}r
 
+// ------------------------------------------ //
