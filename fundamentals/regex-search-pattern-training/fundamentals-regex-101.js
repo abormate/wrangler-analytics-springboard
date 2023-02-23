@@ -150,5 +150,18 @@ most 4 numbers side by side.
 
 // ------------------------------------------- //
 
+// lesson 31: parentheses grouping
 
+/*
+We can group an expression and use these groups to reference or enforce some rules. 
+To group an expression, we enclose () in parentheses. For now just group haa below.
+*/
+
+// sample text for evaluating regex input
+//  ha-ha,haa-haa
+
+// actual regex -- for input
+// ----------->> //      (haa)
+
+// ------------------------------------------- //
 
