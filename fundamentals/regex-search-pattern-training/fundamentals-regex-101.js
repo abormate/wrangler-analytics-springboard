@@ -86,7 +86,7 @@ more times in the text.
 
 // ------------------------------------------ //
 
-// practice: question mark (?)
+// lesson 27: question mark (?)
 // practice 003: question mark (?) with regular expressions
 
 /*
@@ -102,7 +102,7 @@ Thus, both the words a and an can be selected.
 
 // ------------------------------------------ //
 
-// practice: curly braces -- 01
+// lesson 28: curly braces -- 01
 // practice 004: curly braces ({})
 
 /*
@@ -117,4 +117,20 @@ Remember that the range [0-9] will match a single digit.
 // --------->>> //    [0-9]{4}
 
 // ------------------------------------------ //
+
+// lesson 29: curly-braces -- 02
+// practice 005: curly braces 02
+
+/*
+Write the expression using curly braces {} that will find texts containing at least 
+2 numbers side by side.
+*/
+
+// sample text -- where regex search pattern will be applied to
+// Release 10/9/2021
+
+// actual regex 
+// --------->>> //     [0-9]{2,}
+
+// ------------------------------------------- //
 
