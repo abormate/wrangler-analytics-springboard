@@ -236,6 +236,33 @@ before it.
 
 // ------------------------------------------- //
 
+// Lesson 37: Caret sign ^
+// Selecting the start only of a line
+
+/*
+We were using [0-9] to find numbers. To find only numbers at the beginning of a line, prefix this 
+expression with the ^ sign.
+*/
+
+// sample multi-line of text to evaluate regex input
+/*
+Basic Omellette Recipe
+
+1. 3 eggs, beaten
+2. 1 tsp sunflower oil
+3. 1 tsp butter
+*/
+
+// actual regex input
+// -------->> //       ^[0-9]
+
+// END -- Lesson 37
+
+// ------------------------------------------ //
+
+// Lesson 38: Dollar Sign $
+// Selecting only the end of the line
+
 
 
 
