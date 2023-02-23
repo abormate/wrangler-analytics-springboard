@@ -209,11 +209,26 @@ words are selected.
 */
 
 // sample line of text for regex evaluation
+// cat rat dog
+
+// actual regex input
 // --------->> //    (c|r)at|dog
 
 // END -- Lesson 35
 
 // -------------------------------------------- //
+
+// Lesson 36: Escape character \
+/*
+There are special characters that we use when writing regex. { } [ ] / \ + * . $^ | ? 
+Before we can select these characters themselves, we need to use an escape character \. 
+For example, to select the dot . and asterisk * characters in the text, let's add an escape character \ 
+before it.
+*/
+
+// sample line of text for evaluating regex input
+// (*) Asterisk
+
 
 
 
