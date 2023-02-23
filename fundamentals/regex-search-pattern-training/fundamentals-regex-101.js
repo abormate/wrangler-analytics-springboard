@@ -199,3 +199,21 @@ the second group, as the first is a non-capturing group.
 
 // -------------------------------------------- //
 
+// Lesson 35: Pipe character |
+/*
+It allows to specify that an expression can be in different expressions. Thus, all possible statements 
+are written separated by the pipe sign |. This differs from charset [abc], charsets operate at the 
+character level. Alternatives are at the expression level. For example, the following expression would 
+select both cat and rat. Add another pipe sign | to the end of the expression and type dog so that all 
+words are selected.
+*/
+
+// sample line of text for regex evaluation
+// --------->> //    (c|r)at|dog
+
+// END -- Lesson 35
+
+// -------------------------------------------- //
+
+
+
