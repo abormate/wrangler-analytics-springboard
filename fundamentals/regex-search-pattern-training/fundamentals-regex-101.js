@@ -86,3 +86,19 @@ more times in the text.
 
 // ------------------------------------------ //
 
+// practice: question mark (?)
+// question mark (?) with regular expressions
+
+/*
+Write the expression indicating that the letter n is optional in the text, using the question mark ?.
+Thus, both the words a and an can be selected.
+*/
+
+// sample text -- where regular expression where will be applied to
+//  a, an
+
+// actual regex 
+// ---------->>> //   a?n
+
+// ------------------------------------------ //
+
