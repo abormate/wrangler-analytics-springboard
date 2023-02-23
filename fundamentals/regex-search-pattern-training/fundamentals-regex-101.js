@@ -227,7 +227,16 @@ before it.
 */
 
 // sample line of text for evaluating regex input
-// (*) Asterisk
+// (*) Asterisk.
+
+// actual regex input
+// --------->> //   (\*|\.)
+
+// END -- Lesson 36
+
+// ------------------------------------------- //
+
+
 
 
 
