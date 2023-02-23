@@ -181,3 +181,21 @@ Here 1 denotes the order of grouping. Type \2 at the end of the expression to re
 // END -- Lesson 33
 
 // ------------------------------------------- //
+
+// Lesson 34: Parentheses - Non-capturing Grouping
+/*
+You can group an expression and ensure that it is not captured by references. For example, 
+below are two groups. However, the first group reference we denote with \1 actually indicates 
+the second group, as the first is a non-capturing group.
+*/
+
+// sample line of text for evaluation
+// ha-ha,haa-haa
+
+// actual regular expression input following
+// --------->> //     (?:ha)-ha,(haa)-\1
+
+// END -- Lesson 34
+
+// -------------------------------------------- //
+
