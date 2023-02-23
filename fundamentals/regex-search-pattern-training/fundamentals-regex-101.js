@@ -55,7 +55,7 @@ only occur between 1 and 3.
 // ------------------------------------------ //
 
 // Practice run for regular expressions
-// asterisk (*)
+// practice 001: asterisk (*)
 
 /*
 Use the asterisk * to write the expression that will select each word, suitable for the 
@@ -71,7 +71,7 @@ absence of the letter e in the text and the presence of one or more.
 // ------------------------------------------ // 
 
 // practice: plus sign (+)
-// plus sign (+)
+// practice 002: plus sign (+)
 
 /*
 Write the expression using the plus sign + to select words in which the letter e occurs one or 
@@ -87,7 +87,7 @@ more times in the text.
 // ------------------------------------------ //
 
 // practice: question mark (?)
-// question mark (?) with regular expressions
+// practice 003: question mark (?) with regular expressions
 
 /*
 Write the expression indicating that the letter n is optional in the text, using the question mark ?.
@@ -99,6 +99,22 @@ Thus, both the words a and an can be selected.
 
 // actual regex 
 // ---------->>> //   an?
+
+// ------------------------------------------ //
+
+// practice: curly braces -- 01
+// practice 004: curly braces ({})
+
+/*
+Write the expression using curly braces {} that will find texts containing 4 numbers side by side. 
+Remember that the range [0-9] will match a single digit.
+*/
+
+// sample text -- where regex will be applied to
+// Release 10/9/2021
+
+// actual regex
+// --------->>> //    [0-9]{4}
 
 // ------------------------------------------ //
 
