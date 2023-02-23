@@ -98,7 +98,7 @@ Thus, both the words a and an can be selected.
 //  a, an
 
 // actual regex 
-// ---------->>> //   a?n
+// ---------->>> //   an?
 
 // ------------------------------------------ //
 
