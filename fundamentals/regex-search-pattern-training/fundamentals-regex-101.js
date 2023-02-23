@@ -53,3 +53,17 @@ only occur between 1 and 3.
 // --------->>> //    be{1,3}r
 
 // ------------------------------------------ //
+
+// Practice run for regular expressions
+// asterisk (*)
+
+/*
+Use the asterisk * to write the expression that will select each word, suitable for the 
+absence of the letter e in the text and the presence of one or more.
+*/
+
+// sample text -- to appluy regex on this line of text
+// dp dep deep
+
+// regular expressions actual 
+// --------->>> //     de*p
