@@ -162,6 +162,8 @@ To group an expression, we enclose () in parentheses. For now just group haa bel
 // actual regex -- for input
 // ----------->> //      (haa)
 
+// END -- Lesson 32
+
 // ------------------------------------------- //
 
 // lesson 33: referencing a group 
@@ -175,5 +177,7 @@ Here 1 denotes the order of grouping. Type \2 at the end of the expression to re
 
 // actual regular expression input following
 // ----------->> //      (ha)-\1,(haa)-\2
+
+// END -- Lesson 33
 
 // ------------------------------------------- //
