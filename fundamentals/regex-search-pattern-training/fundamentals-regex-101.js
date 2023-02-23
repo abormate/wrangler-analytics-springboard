@@ -62,8 +62,27 @@ Use the asterisk * to write the expression that will select each word, suitable 
 absence of the letter e in the text and the presence of one or more.
 */
 
-// sample text -- to appluy regex on this line of text
+// sample text -- to apply regex on this line of text
 // dp dep deep
 
 // regular expressions actual 
 // --------->>> //     de*p
+
+// ------------------------------------------ // 
+
+// practice: plus sign (+)
+// plus sign (+)
+
+/*
+Write the expression using the plus sign + to select words in which the letter e occurs one or 
+more times in the text.
+*/
+
+// sample text -- line of text where regex will be applied to
+// dp dep deep
+
+// actual regular expression
+// ---------->>> //      de+p
+
+// ------------------------------------------ //
+
