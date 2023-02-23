@@ -103,7 +103,7 @@ Thus, both the words a and an can be selected.
 // ------------------------------------------ //
 
 // lesson 28: curly braces -- 01
-// practice 004: curly braces ({})
+// practice 004: curly braces -- digit number specifier
 
 /*
 Write the expression using curly braces {} that will find texts containing 4 numbers side by side. 
@@ -119,7 +119,7 @@ Remember that the range [0-9] will match a single digit.
 // ------------------------------------------ //
 
 // lesson 29: curly-braces -- 02
-// practice 005: curly braces 02
+// practice 005: curly braces 02 -- comma delimiter
 
 /*
 Write the expression using curly braces {} that will find texts containing at least 
@@ -135,7 +135,7 @@ Write the expression using curly braces {} that will find texts containing at le
 // ------------------------------------------- //
 
 // lesson 30: curly-braces -- 03
-// practice 006: curly braces
+// practice 006: curly braces -- inner range with comma
 
 /*
 Write the expression using curly braces {} that will find texts containing at least 1 and at 
