@@ -362,3 +362,17 @@ The expression \W is used to find characters other than letters, numbers, and un
 
 // ----------------------------------------- //
 
+// Lesson 44: Except space character \S
+/*
+\S is used to find non-space characters.
+*/
+
+// sample line of text to evaluate regex input
+// abcABC123 .:!?
+
+// actual regex input
+// --------->> //       \S
+
+// END -- Lesson 44
+
+// ------------------------------------------ // 
