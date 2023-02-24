@@ -345,3 +345,16 @@ The expression \W is used to find characters other than letters, numbers, and un
 
 // END -- Lesson 42
 
+// ------------------------------------------ //
+
+// Lesson 43: Space character \s
+/*
+\s is used to find only space characters.
+*/
+
+// sample line of text to evaluate with regex input 
+//  abcABC123 .:!?
+
+// actual regex input 
+// -------->> //      \s
+
