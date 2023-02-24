@@ -282,3 +282,7 @@ https://website.com/html5-features.html
 
 // ----------------------------------------- //
 
+// Lesson 39: Word Character \w -- Letter, number and underscore
+
+//
+
