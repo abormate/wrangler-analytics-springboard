@@ -15,4 +15,18 @@ our expression. Include PM after the = sign inside the parentheses.
 
 // ------------------------------------ //
 
-// Lesson 47 -- 
+// Lesson 47 -- negative lookahead (?!)
+/*
+For example, we want to select numbers other than the hour value in the text. Therefore, we need 
+to write the negative look-ahead (?!) expression after our expression to select only the numerical 
+values that do not have PM after them. Include PM after the ! sign inside the parentheses.
+*/
+
+// sample line to evaluate input regex on
+// Date: 4 Aug 3PM
+
+// actual regex input
+// ------->> //     \d+(?!PM)
+
+// END -- Lesson 47
+
