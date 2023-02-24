@@ -332,6 +332,16 @@ The expression \W is used to find characters other than letters, numbers, and un
 
 // ------------------------------------------ //
 
+// Lesson 42: Except Number character \D
+/*
+\D is used to find non-numeric characters.
+*/
 
+// sample line of text for regex evaluation
+// abcABC123 .:!?
 
+// actual regex input
+// ------->> //       \D
+
+// END -- Lesson 42
 
