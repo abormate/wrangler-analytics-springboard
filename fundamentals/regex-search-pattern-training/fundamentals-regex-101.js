@@ -300,12 +300,15 @@ expression \w to find word characters in the text.
 
 // ----------------------------------------- //
 
-// Lesson 40: Except Word Character \W (capital w)
+// Lesson 40: Except Word Character \W (capital w) -- selects only symbols
 
 // learn and instructions
 /*
 The expression \W is used to find characters other than letters, numbers, and underscores.
 */
+
+// sample line of text for evaluation
+// abcABC123 _.:!?
 
 // actual regex input
 // --------->> //      \W
