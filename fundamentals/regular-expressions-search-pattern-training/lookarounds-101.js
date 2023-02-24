@@ -30,3 +30,24 @@ values that do not have PM after them. Include PM after the ! sign inside the pa
 
 // END -- Lesson 47
 
+// ------------------------------------ //
+
+// Lesson 48 -- positive lookbehind (?<=)
+/*
+For example, we want to select the price value in the text. Therefore, to select only the number 
+values that are preceded by $, we need to write the positive lookbehind expression (?<=) before our 
+expression. Add \$ after the = sign inside the parenthesis.
+
+--> Note: Regex in this lesson step is not supported with some browsers <-- Note.
+*/
+
+// sample line of text to evaluate regex input with
+//  Product Code: 1064 Price: $5
+
+// actual regex input
+// ------->> //   (?<=\$)\d+
+
+// END -- Lesson 48
+
+
+
