@@ -284,7 +284,7 @@ https://website.com/html5-features.html
 
 // Lesson 39: Word Character \w -- selects only letters, numbers and underscore
 
-// instructions
+// learn and instructions
 /*
 The expression \w is used to find letters, numbers and underscore characters. Let's use the 
 expression \w to find word characters in the text.
@@ -296,6 +296,22 @@ expression \w to find word characters in the text.
 // actual regex -- input
 // ------->> //     \w
 
+// END -- Lesson 39
+
 // ----------------------------------------- //
+
+// Lesson 40: Except Word Character \W (capital w)
+
+// learn and instructions
+/*
+The expression \W is used to find characters other than letters, numbers, and underscores.
+*/
+
+// actual regex input
+// --------->> //      \W
+
+// END -- Lesson 40
+
+// ------------------------------------------ //
 
 
