@@ -317,4 +317,21 @@ The expression \W is used to find characters other than letters, numbers, and un
 
 // ------------------------------------------ //
 
+// Lesson 41: Number characters \d
+/*
+\d is used to find only number characters.
+*/
+
+// sample line of text for evaluation of regular expression input
+// abcABC123 .:!?
+
+// actual regular expression input
+// -------->> //     \d
+
+// END -- Lesson 41
+
+// ------------------------------------------ //
+
+
+
 
