@@ -158,6 +158,13 @@ to rating_sum.
 Store the result in a variable named avg_rating.
 '''
 
+opened_file = open('AppleStore.csv')
+from csv import reader
+read_file = reader(opened_file)
+apps_data = list(read_file)
+
+
+
 
 
 
