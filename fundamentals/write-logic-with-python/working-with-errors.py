@@ -135,7 +135,28 @@ for row in apps_data[1:]:
     rating_sum = rating_sum + rating
 print(rating_sum)
 
+'''
+To address the errors, we need to convert strings to integers or floats (decimal numbers) using the 
+int() or float() functions, respectively. The ratings are expressed as decimal points, so we'll convert 
+them to floats using the float() function.
+'''
 
+# Exercise - dealing with errors
+'''
+1. Initialize a variable named rating_sum with a value of zero.
+
+2. Loop through the apps_data[1:] list of lists (make sure you don't include the header row). 
+For each of the 7,197 iterations of the loop (for each row in apps_data[1:]), do the following:
+
+-- -- Extract the rating of the app, and store it to a variable named rating (the rating has the 
+index number 7). Convert the rating value from a string to a float using the float() function.
+
+-- -- Add the value stored in rating to the current value of rating_sum and assign the result back 
+to rating_sum.
+
+3. Divide the rating sum (stored in rating_sum) by the number of ratings to get an average value. 
+Store the result in a variable named avg_rating.
+'''
 
 
 
