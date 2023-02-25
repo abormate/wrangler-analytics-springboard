@@ -115,4 +115,11 @@ stored in our dataset.
 
 """
 
+rating_sum = []
 
+for row in apps_data[1:]:
+    rating = row[7]
+    rating_sum.append(float(rating))
+
+avg_rating = sum(rating_sum) / len(rating_sum)
+print(avg_rating)
