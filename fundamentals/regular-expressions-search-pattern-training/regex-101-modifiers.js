@@ -77,3 +77,18 @@ by it. But it does not stop at the first letter r.
 
 // ---------------------------------------------------------------- //
 
+// Lesson 55 -- "lazy" match
+/*
+Lazy matchmaking, unlike greedy matching, stops at the first matching. For example, in the example 
+below, add a ? after * to find the first match that ends with the letter r and is preceded by 
+any character. It means that this match will stop at the first letter r.
+*/
+
+// line of text to match with our regex input
+// ber beer beeer beeeer
+
+// actual regex input 
+// ------->> //           .*?r
+
+// END -- Lesson 55 
+
