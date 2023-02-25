@@ -17,7 +17,7 @@ first match. Now enable the global flag to be able to select all matches.
 // domain.com, test.com, site.com
 
 // actual regex input -- it passes when we enable "global" -- ctrl+g
-// ------->> //     \w+\.com 
+// ------->> // *enable global mode* + this regex instruction ==>       \w+\.com 
 
 // END -- Lesson 51
 
@@ -30,15 +30,50 @@ In this way, the expressions we write to identify patterns at the end of lines w
 each line. Now enable the multiline flag to find all matches.
 */
 
-// sample line of text where regex will be applied on
+// sample lines of text where regex will be applied on
 //      domain.com
   //    test.com
   //    site.com
 
 // actual regex input (works when multi-line is enabled and global is enabled too)
-// -------->> // \w+\.com$ 
+// -------->> // *enable multi-line mode along with global* + this regex ==>           \w+\.com$ 
 
 // END -- Lesson 52 
 
 // ----------------------------------------------------------------- //
+
+// Lesson 53 -- Case-insensitive flag modifier
+/*
+In order to remove the case-sensitivity of the expression we have written, we must 
+activate the case-insensitive flag.
+*/
+
+// sample lines of text where our regex input will be applied on
+// DOMAIN.COM
+// TEST.COM
+// SITE.COM
+
+// actual regex input
+// -------->> // *enable case insensitive* + this regex instruction ==>    \w+\.com$
+
+// END -- Lesson 53 
+
+// ----------------------------------------------------------------- //
+
+// Lesson 54 -- "greedy" match
+/*
+Regex does a greedy match by default. This means that the matchmaking will be as long as possible. 
+Check out the example below. It refers to any match that ends in r and can be any character preceded 
+by it. But it does not stop at the first letter r.
+*/
+
+// sample line of text where our regex input will search patterns for 
+// ber beer beeer beeeer
+
+// actual regex input
+// ------>> //         .*r
+
+// END -- Lesson 54
+
+// ---------------------------------------------------------------- //
 
