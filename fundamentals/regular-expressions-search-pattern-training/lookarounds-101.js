@@ -49,5 +49,26 @@ expression. Add \$ after the = sign inside the parenthesis.
 
 // END -- Lesson 48
 
+// ------------------------------------ //
+
+// Lesson 49 -- Negative lookbehind (?<!)
+/*
+For example, we want to select numbers in the text other than the price value. Therefore, to select 
+only numeric values that are not preceded by $, we need to write the negative lookbehind (?<!) before 
+our expression. Add \$ after the ! inside the parenthesis.
+*/
+
+// sample line of text to evaluate our regex input
+// Product Code: 1064 Price: $5
+
+// regex input actual 
+// ------->> //    (?<!\$)\d+
+
+// END -- Lesson 49
+
+// ------------------------------------ //
+
+
+
 
 
