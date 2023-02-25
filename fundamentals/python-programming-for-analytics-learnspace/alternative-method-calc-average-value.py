@@ -115,6 +115,7 @@ stored in our dataset.
 
 """
 
+apps_data = []
 rating_sum = []
 
 for row in apps_data[1:]:
