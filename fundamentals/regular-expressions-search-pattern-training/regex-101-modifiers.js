@@ -23,4 +23,20 @@ first match. Now enable the global flag to be able to select all matches.
 
 // ----------------------------------------------------------------- //
 
+// Lesson 52 -- Multi line global flag modifier
+/*
+Regex sees all text as one line. But we use the multiline flag to handle each line separately. 
+In this way, the expressions we write to identify patterns at the end of lines work separately for 
+each line. Now enable the multiline flag to find all matches.
+*/
+
+// sample line of text where regex will be applied on
+//      domain.com
+  //    test.com
+  //    site.com
+
+// actual regex input (works when multi-line is enabled and global is enabled too)
+// -------->> // \w+\.com$ 
+
+// END -- Lesson 52 
 
