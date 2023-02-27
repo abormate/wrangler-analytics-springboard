@@ -81,3 +81,22 @@ what is html
 
 // --------------------------------------- //
 
+// Lesson 6 - Anything .*
+/*
+In regex, the period . can match anything, including spaces. But this match is only for a single 
+character where it is used. The asterisk character * means that the preceding item does not exist 
+at all or occurs more than once in the text. When the two are used together, it means that there 
+can be an element of unlimited length where used.
+*/
+
+/*
+Below are various keywords. Add .* to the end of the regex to write the expression that starts 
+with how to write and matches everything after it.
+*/
+
+// workspace -- multiple lines of text where input regex will be applied to
+/*
+how to write regex
+how to write regexp
+how to write book review
+*/
