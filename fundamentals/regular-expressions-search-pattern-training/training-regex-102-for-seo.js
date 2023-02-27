@@ -214,3 +214,10 @@ https://learnhtmltestsite.com/learn.html
 
 // -------------------------------------- //
 
+// Lesson 11 - Length Restrictions {n}
+/*
+We may want to filter the results by character lengths. For example, to filter URLs that are 
+35 characters long, type the number you want to use for the length, {35}, using curly braces at 
+the end of the period .
+*/
+
