@@ -108,3 +108,27 @@ how to write book review
 
 // --------------------------------------- //
 
+// Lesson 7 -- Contains
+/*
+To filter the text that contains the words or phrases we're looking for, we write the word we're 
+looking for between our two phrases .* that match everything. For example, type .*buy.* to filter 
+out what includes buy.
+*/
+
+// workspace -- multi lines of text where our input regex will be applied to
+/*
+what is regex?
+i want to buy a boat
+how to buy a new phone
+*/
+
+// actual regex input
+// ---------->> //     .*buy.*
+
+// output
+// matches "i want to buy a boat" and "how to buy a new phone"
+
+// END -- Lesson 7
+
+// -------------------------------------- // 
+
