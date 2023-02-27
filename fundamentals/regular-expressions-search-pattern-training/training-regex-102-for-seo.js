@@ -221,3 +221,156 @@ We may want to filter the results by character lengths. For example, to filter U
 the end of the period .
 */
 
+// sample lines of text where our input regex will be applied to
+/*
+https://ahrefs.com/dashboard
+https://ahrefs.com/site-explorer
+https://ahrefs.com/keywords-explorer
+https://ahrefs.com/site-audit
+https://ahrefs.com/rank-tracker
+https://ahrefs.com/content-explorer
+*/
+
+// actual regex input 
+// ---------->> //      ^.{35}$
+
+// output
+// matches only the URL line that has exactly 35 characters to it
+// https://ahrefs.com/content-explorer
+
+// END -- Lesson 11
+
+// ------------------------------------- // 
+
+// Lesson 12 -- Length restrictions (maximum) {n,m}
+/*
+To filter URLs with a maximum length of 35 characters, type {1,35} the minimum and maximum number values 
+we will use for the length, using curly braces at the end of the period .
+*/
+
+// workspace -- sample lines of text for regex input application
+/*
+https://ahrefs.com/dashboard
+https://ahrefs.com/site-explorer
+https://ahrefs.com/keywords-explorer
+https://ahrefs.com/site-audit
+https://ahrefs.com/rank-tracker
+https://ahrefs.com/content-explorer
+*/
+
+// actual regex input
+// ---------->> //    ^.{1,35}$
+
+// output
+// matches all lines of text that have between 1 to 35 characters comprising
+// which are the following lines of text from the above workspace
+/*
+https://ahrefs.com/dashboard
+https://ahrefs.com/site-explorer
+
+https://ahrefs.com/site-audit
+https://ahrefs.com/rank-tracker
+https://ahrefs.com/content-explorer
+*/
+
+// END -- Lesson 12 
+
+// ------------------------------------- //
+
+// Lesson 13 - Length Restrictions (minimum) {n,}
+/*
+To filter URLs with a minimum length of 35 characters, type {35,} using curly braces at the end of the 
+period and ending with a comma for the minimum number value we will use for the length.
+*/
+
+// workspace -- apply input regex to these lines of text
+/*
+https://ahrefs.com/dashboard
+https://ahrefs.com/site-explorer
+https://ahrefs.com/keywords-explorer
+https://ahrefs.com/site-audit
+https://ahrefs.com/rank-tracker
+https://ahrefs.com/content-explorer
+*/
+
+// actual regex input
+// ---------->> //     ^.{35,}$
+
+// output
+// matches only lines of text that have exactly a minimum of 35 characters
+// which means, these lines of text 
+/*
+
+
+https://ahrefs.com/keywords-explorer
+
+
+https://ahrefs.com/content-explorer
+*/
+
+// END -- Lesson 13
+
+// ----------------------------------------- //
+
+// Lesson 14 -- robots.txt (regex-like syntax)
+/*
+Here is an example of regex-like usage in the robots.txt file. The example states that bots should not 
+crawl links with the extension pdf
+*/
+
+// sample lines of text to apply our regex input to
+/*
+User-agent: *
+Disallow: /*.pdf$
+
+----------
+
+/about.html
+/home.html
+/document.pdf
+/team.html
+/introduction.pdf
+*/
+
+// actual regex input
+// ---------->> //     /*.pdf$
+
+// output 
+// matches only page-path ending with .pdf
+
+// END -- Lesson 14
+
+// ------------------------------------------- //
+
+// Lesson 15 -- .htaccess
+/*
+Here is an example of using regex in the .htaccess file. In the example, php extension links are 
+directed to html extensions with 301 code
+*/
+
+// sample text for where our input regex will be applied to
+/*
+RewriteEngine On
+RewriteCond %{REQUEST_URI} .php$
+RewriteRule ^(.*).php$ /$1.html [R=301,L]
+
+----------
+
+/about.html
+/home.html
+/product/detail.php
+/shop/12/buy.php
+/profile.php
+*/
+
+// actual regex input
+// ---------->> //      ^(.*).php$
+
+// output
+// selects only page-paths that end with .php
+
+// END -- Lesson 15
+
+// ------------------------------------------- //
+
+
