@@ -100,3 +100,11 @@ how to write regex
 how to write regexp
 how to write book review
 */
+
+// actual regex input
+// ---------->> //     how to write .*
+
+// END -- Lesson 6
+
+// --------------------------------------- //
+
