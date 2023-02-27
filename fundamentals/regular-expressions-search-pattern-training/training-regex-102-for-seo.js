@@ -38,7 +38,7 @@ Ahrefs
 
 // ------------------------------------- //
 
-// Lesson 4 -- "Or" operator --> "pipe" |
+// Lesson 4 -- "Or" OR operator --> "pipe" |
 /*
 We use the Or operator | to filter out multiple expressions. For example, filter text containing seo 
 and regex by writing the two words, separating them with the Or operator |
@@ -58,5 +58,26 @@ regular expression
 
 // ------------------------------------- //
 
+// Lesson 5 -- "Optional" operator ? -- question mark
+/*
+We use it to express that an expression or character is optional. For example, we want to filter text 
+containing both http and https. We can use the Or operator | for this operation, but there is a 
+better way for these two almost identical words.
+*/
 
+// workspace -- multiple lines of text where our input regex will be applied to
+/*
+what is http
+what is https
+what is html
+*/
+
+// In this example, the letter s is optional. Instead, add a question mark ? to the end of the letter s.
+
+// actual regex input
+// ---------->> //      https?
+
+// END - Lesson 5
+
+// --------------------------------------- //
 
