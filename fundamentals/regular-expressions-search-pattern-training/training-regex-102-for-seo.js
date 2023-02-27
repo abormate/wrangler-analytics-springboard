@@ -132,3 +132,54 @@ how to buy a new phone
 
 // -------------------------------------- // 
 
+
+// Lesson 8 -- Negated character sets [^abc]
+/*
+We use the negated character sets [^] to denote characters we don't want to be included. 
+The characters we do not want to be included are written in square brackets with a caret at the beginning. 
+Below are both http and https. Since http occurs in both, it will also choose https. 
+Type [^s] after the letter p to exclude the letter s.
+*/
+
+// workspace -- multi lines of text for application of our regex input
+/*
+1. http://testdomain.com
+2. https://testdomain.com
+*/
+
+// actual regex input
+// --------->> //      http[^s].*
+
+// Output
+// matches only http (without the "s" letter) --> http://testdomain.com
+
+// END -- Lesson 8
+
+// ------------------------------------- //
+
+
+// Lesson 9 -- Caret ^ -- beginning
+/*
+Let's say we have a list of URLs, and we want to find only those URLs that start with http. 
+But URLs also contain http in different parts other than their beginning. So add a caret ^ to the 
+beginning of the following expression to filter out only those starting with http.
+*/
+
+// workspace -- multi lines of text to apply our regex input
+/*
+http://www.google.com/search?q=https
+https://developer.mozilla.org/en-US/docs/Glossary/http
+http://httpstatus.io/
+https://ahrefs.com/
+*/
+
+// actual regex input
+// ---------->> //   ^http[^s].*
+
+// output
+// matches only http (without an "s") and those 2 lines from the workspace with only with http at the beginning 
+// http://www.google.com/search?q=https
+// http://httpstatus.io/ 
+
+// END -- Lesson 9 
+
