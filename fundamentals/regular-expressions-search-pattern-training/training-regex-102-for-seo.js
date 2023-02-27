@@ -185,3 +185,32 @@ https://ahrefs.com/
 
 // ------------------------------------ //
 
+// Lesson 10 -- Dollar Sign $ and Escape character \
+/*
+Since the period . is a special character that matches everything, we first need to disable 
+the period before htm using the escape character \. This applies to all special characters.
+
+Then add a $ sign to the end of the expression. This ensures that the text to be filtered ends 
+with the expression written before it.
+*/
+// Again we have a list of URLs. We want to find only those URLs ending in .htm
+
+// sample lines of text to apply our regex input to
+/*
+https://www.google.com/search?hl=en&q=html
+https://testsite.com/learn-html.htm
+https://developer.mozilla.org/en-US/docs/Web/html
+https://learnhtmltestsite.com/learn.html
+*/
+
+// actual regex input
+// ---------->> //    .*\.htm$
+
+// output
+// matches only the URL line that ends with ".htm"
+// https://testsite.com/learn-html.htm
+
+// END -- Lesson 10
+
+// -------------------------------------- //
+
