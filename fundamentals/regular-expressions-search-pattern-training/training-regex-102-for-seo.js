@@ -38,4 +38,25 @@ Ahrefs
 
 // ------------------------------------- //
 
-// Lesson 3  
+// Lesson 4 -- "Or" operator --> "pipe" |
+/*
+We use the Or operator | to filter out multiple expressions. For example, filter text containing seo 
+and regex by writing the two words, separating them with the Or operator |
+*/
+
+// line of text where our regex input will be applied to
+/*
+regex
+seo
+regular expression
+*/
+
+// actual regex input
+// ---------->> //      regex|seo
+
+// END -- Lesson 4
+
+// ------------------------------------- //
+
+
+
