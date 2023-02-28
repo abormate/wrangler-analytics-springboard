@@ -20,6 +20,18 @@ Isolate the ratings for free and non-free apps in separate lists.
 Compute the average rating for each list.
 """
 
+# Exercise 
+# ------------------------ # 
+'''
+Complete the code in the editor to find the names for all of the apps in the dataset. The AppleStore.csv is available under the csv tab in the editor to the right.
+
+Inside the for loop, complete the following:
+-- -- Assign the name of an app to a variable called name. The name is the second element in each row (the index starts at 0).
+-- -- Append the value stored in name to the apps_names list using the list_name.append() function (note the apps_names list is already defined in the code editor) and be careful with indentation.
+
+Print the first 5 elements in apps_names list to display the names of the apps.
+'''
+
 
 opened_file = open('AppleStore.csv')
 from csv import reader
