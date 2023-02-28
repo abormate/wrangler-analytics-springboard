@@ -19,3 +19,8 @@ To implement the condition above (If the price equals 0.0, then do:) in our code
 we can use an if statement:
 '''
 
+# Follow Link: Screencapture ---->> https://prnt.sc/9Y-sUqA2mwaa 
+
+# In the example above, we iterate over the apps_data[1:], and for each iteration, 
+# complete the following:
+
