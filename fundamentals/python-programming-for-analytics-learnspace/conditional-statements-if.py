@@ -36,3 +36,21 @@ doesn't execute.
 '''
 
 # Here are a few things to notice about the if statement:
+
+"""
+-- -- The if statement starts with if, it continues with price == 0.0 and it ends with :
+
+-- -- Use the == operator to check if the price is equal to 0.0. Don't confuse == with = (= is a variable 
+assignment operator in Python; we use it to assign values to variables, it doesn't tell us anything 
+about equality).
+
+-- -- Indent ratings.append(rating) four spaces to the right relative to the if statement.
+"""
+
+# ------------------------------------- #
+
+# Exercise 
+#
+
+# ------------------------------------- #
+
