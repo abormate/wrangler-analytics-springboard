@@ -49,8 +49,33 @@ about equality).
 
 # ------------------------------------- #
 
-# Exercise 
-#
+# Exercise -- Activity 
 
 # ------------------------------------- #
 
+# Directive: 
+# Complete the code in the editor to find the average rating for free apps.
+
+"""
+1. Inside the for loop, complete the following:
+
+-- -- Assign the price of an app as a float to a variable named price. The price is the fifth element 
+in each row (the index starts at 0).
+
+-- -- If price == 0.0, append the value stored in rating to the free_apps_ratings list using the 
+list_name.append() function (note the free_apps_ratings is already defined in the code editor).
+
+
+2. Outside the for loop body, compute the average rating of free apps. Assign the result 
+to a variable named avg_rating_free. The ratings are stored in the free_apps_ratings list.
+
+"""
+
+opened_file = open('AppleStore.csv')
+from csv import reader
+read_file = reader(opened_file)
+apps_data = list(read_file)
+
+free_apps_ratings = []
+for row in apps_data[1:]:
+    rating = float(row[7])
