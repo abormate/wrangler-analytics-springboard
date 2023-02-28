@@ -13,6 +13,13 @@ What's the average rating of non-free apps?
 What's the average rating of free apps?
 """
 
+"""
+To answer these two questions, we need to find a way to separate free apps from non-free or purchase apps, because they are all listed together in our dataset. We must specifically complete the following:
+
+Isolate the ratings for free and non-free apps in separate lists.
+Compute the average rating for each list.
+"""
+
 
 opened_file = open('AppleStore.csv')
 from csv import reader
