@@ -32,7 +32,6 @@ Inside the for loop, complete the following:
 Print the first 5 elements in apps_names list to display the names of the apps.
 '''
 
-
 opened_file = open('AppleStore.csv')
 from csv import reader
 read_file = reader(opened_file)
@@ -40,4 +39,7 @@ apps_data = list(read_file)
 
 apps_names = []
 for row in apps_data[1:]:
-    print()
+    name = row[1]
+    apps_names.append(name)
+    
+print(apps_names[:5])
