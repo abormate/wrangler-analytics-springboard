@@ -33,3 +33,17 @@ print(type(True))
 We call True and False Boolean values or Booleans, we can see in the code example above that 
 their data type is bool ("bool" is an abbreviation for "Boolean").
 """
+
+# ----------------------------------------- #
+#
+# Exercise - Activity 
+#
+# ----------------------------------------- #
+
+# Instructions
+"""
+-- Print a_price equals 0.
+-- Print a_price equals 1.
+
+Do not modify the a_price variable.
+"""
