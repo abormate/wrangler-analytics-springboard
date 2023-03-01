@@ -106,5 +106,23 @@ where both statements are true.
 -- -- We only want to print statements where both statements are true.
 """
 
+if False:
+    print("2 + 2 == 5")
+    print("lemons are sour")
 
+if True:
+    print("the sky is blue")
+    print("5 >= 3")
+    
+if False:
+    print("spheres have corners")
+    print("7 / 5 == 2")
+
+# Output
+# the sky is blue
+5 >= 3
+
+# END
+
+# -------------------------------------------- #
 
