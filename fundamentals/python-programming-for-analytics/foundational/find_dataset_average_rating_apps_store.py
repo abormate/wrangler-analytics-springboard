@@ -86,6 +86,26 @@ Let's also look at an example where we use a variable (price, in the example bel
 
 # ------------------------------------- #
 
+# Instructions
+"""
+Modify the existing code in the editor on the right to compute the average rating of non-free apps.
+
+1. Change the name of the empty list from free_apps_ratings to non_free_apps_ratings (the list we 
+defined before the for loop).
+
+2. Change the condition if price == 0.0 to account for the fact that we now want to isolate only the 
+ratings of non-free apps.
+
+3. Change free_apps_ratings.append(rating) to make sure the ratings are appended to the new list 
+non_free_apps_ratings.
+
+4. Compute the average value by adding up the values in non_free_apps_ratings and dividing by the 
+length of this list. Assign the result to avg_rating_non_free.
+
+Optional exercise: Inspect the value of avg_rating_non_free and compare the average with the 
+free apps (the average rating of free apps is approximately 3.38 — we computed it on the first screen). 
+Can we use the average values to determine whether free apps are better than non-free apps?
+"""
 
 opened_file = open('AppleStore.csv')
 from csv import reader
