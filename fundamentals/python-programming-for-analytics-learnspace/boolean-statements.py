@@ -47,3 +47,15 @@ their data type is bool ("bool" is an abbreviation for "Boolean").
 
 Do not modify the a_price variable.
 """
+
+a_price = 1
+
+print(a_price == 0)
+print(a_price == 1)
+
+# Output 
+False
+True
+
+# ------------------------------------------ #
+# END 
