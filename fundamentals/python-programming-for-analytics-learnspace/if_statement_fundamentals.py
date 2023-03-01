@@ -46,5 +46,50 @@ if True:
 
 # -------------------- #
 
+"""
+The indented code only executes when True follows if. When False follows if, the code inside the 
+body doesn't execute. Notice in the diagram below that 'First Output' and 'Third Output' are printed, 
+while 'Second Output' isn't
+"""
 
+if True:
+    print('First Output')
+
+if False:
+    print('Second Output')
+
+if True:
+    print('Third Output')
+
+# Output
+# First Output
+# Third Output
+
+"""
+Note that we can have more than one line of code in the body of an if statement. 
+Below, we see three lines of code for each if statement.
+"""
+
+if False:
+    print('A')
+    print('B')
+    print('C')
+
+if True:
+    print(1)
+    print(2)
+    print(3)
+
+# Output
+1
+2
+3
+
+# ------------------------------------------- #
+
+# Practice - Exercise
+
+# ------------------------------------------- #
+
+ 
 
