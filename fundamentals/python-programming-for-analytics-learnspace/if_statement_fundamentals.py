@@ -91,5 +91,20 @@ if True:
 
 # ------------------------------------------- #
 
- 
+"""
+In the code editor, we've provided three pairs of statements for use in this exercise. 
+Recall that the indented code only executes when True follows if. When False follows if, the 
+code inside the body doesn't execute. Let's leverage this behavior to only print the statements 
+where both statements are true.
+"""
+
+"""
+1. Review the pairs of statements provided in the code editor.
+
+2. Correct the boolean following the if statement when one or both statements are false, so that the code inside the body doesn't execute.
+
+-- -- We only want to print statements where both statements are true.
+"""
+
+
 
