@@ -59,5 +59,45 @@ if the price of the app equals 0
 
 """
 
+"""
+After we extracted the ratings of the free apps in a separate list, we computed the average 
+value by adding up all the ratings in that list and dividing the sum by the length of the list. 
+However, we still need to compute the average rating for non-free apps.
 
+When we isolated the free apps, we used the condition "if the price is equal to 0.0" (if price == 0.0) 
+to isolate the non-free apps. Change the condition to "if the price is not equal to 0.0." 
+For "is equal to," we can use the operator ==. For "is not equal to," we'll need to use 
+the != operator.
+
+Below, we see an example of the != operator in use:
+"""
+
+# Code snippet for above - screenshot ---->> // https://prnt.sc/7qYR2gNiDkXE
+
+"""
+Let's also look at an example where we use a variable (price, in the example below) with the != operator
+"""
+
+# Code snippet for above - screencapture ----->> // https://prnt.sc/qbNb8eNavlG6 
+
+# ------------------------------------- #
+
+# Practice - Exercise 
+
+# ------------------------------------- #
+
+
+opened_file = open('AppleStore.csv')
+from csv import reader
+read_file = reader(opened_file)
+apps_data = list(read_file)
+
+free_apps_ratings = []
+for row in apps_data[1:]:
+    rating = float(row[7])
+    price = float(row[4])   
+    if price == 0.0:
+        free_apps_ratings.append(rating)
+    
+avg_rating_free = sum(free_apps_ratings) / len(free_apps_ratings)
 
