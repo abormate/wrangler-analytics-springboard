@@ -20,3 +20,16 @@ print(4 == 7) # This is false
 True
 False
 
+"""
+Although they may look like strings, True and False belong to a different data type
+"""
+# Example 
+print(type(True))
+
+# Output
+# <class 'bool'>
+
+"""
+We call True and False Boolean values or Booleans, we can see in the code example above that 
+their data type is bool ("bool" is an abbreviation for "Boolean").
+"""
