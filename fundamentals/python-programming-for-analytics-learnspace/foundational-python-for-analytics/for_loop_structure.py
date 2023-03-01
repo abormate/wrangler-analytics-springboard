@@ -22,7 +22,7 @@ For the first iteration, the value is the first element of the iterable (if the 
 For the second iteration, the value is the second element of the iterable (if the iterable is the list [1, 3, 5], then the value will be 3).
 
 For the third iteration, the value is the third element of the iterable (if the iterable is the list [1, 3, 5], then the value will be 5).
-''''
+'''
 
 # outputs for code example above a-01 
 # 1
