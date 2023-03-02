@@ -41,3 +41,69 @@ This enables us to answer more questions about our dataset, like the following:
 
 # image screencapture for "apps genre" --> https://prnt.sc/rMt0WORFqEpe 
 
+"""
+To compute the average rating of gaming apps, we can use the same approach we used on the previous 
+screen when we computed the average rating of free and non-free apps. In the code example below, 
+we do the following:
+
+-- Initialize an empty list named games_ratings.
+-- Loop through apps_data[1:], where apps_data is a list of lists that stores our dataset. For each iteration, we do the following:
+
+-- -- Assign the rating as a float to a variable named rating.
+-- -- Assign the genre to a variable named genre and the genre will be saved as a string.
+-- -- Append the rating value stored in rating to the list games_ratings if the value in genre is equal to the string 'Games'.
+
+-- Compute the average rating of gaming apps and assign the result to avg_rating_games.
+
+-- Print avg_rating_games
+
+"""
+
+opened_file = open('AppleStore.csv')
+from csv import reader
+read_file = reader(opened_file)
+apps_data = list(read_file)
+
+games_ratings = []
+for row in apps_data[1:]:
+    rating = float(row[7])
+    genre = row[11]
+
+    if genre == 'Games':
+        games_ratings.append(rating)
+
+avg_rating_games = sum(games_ratings) / len(games_ratings)
+print(avg_rating_games)
+
+# Output
+3.6850077679958573
+
+# ------------------------------------------------ #
+
+# Practice - Exercise
+
+# ------------------------------------------------ #
+
+# Instructions 
+'''
+Using the same techniques in the diagram above, compute the average rating of non-gaming apps.
+
+1. Initialize an empty list named non_games_ratings.
+
+2. Loop through the apps_data list of lists (make sure you don't include the header row). 
+   For each iteration of the loop, do the following:
+
+-- -- Assign the rating of the app as a float to a variable named rating (the index number of the rating 
+       column is 7).
+
+-- -- Assign the genre of the app to a variable named genre (index number 11).
+
+-- -- If the genre is not equal to 'Games', append the rating to the non_games_ratings list.
+
+3. Compute the average rating of non-gaming apps and assign the result to a variable named 
+    avg_rating_non_games.
+
+4. Optional exercise: compare the average rating of gaming apps (3.69) with the average rating of 
+    non-gaming apps. Why do you think we see this difference?
+
+'''
