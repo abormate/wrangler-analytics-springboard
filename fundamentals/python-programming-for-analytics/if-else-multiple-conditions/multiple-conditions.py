@@ -116,3 +116,8 @@ for row in apps_data[1:]:
     rating = float(row[7])
     price = float(row[4])
     genre = row[11]
+    if genre == 'Games' and price == 0.0:
+        free_games_ratings.append(rating)
+
+avg_rating_free_games = sum(free_games_ratings)/len(free_games_ratings)
+print(avg_rating_free_games)

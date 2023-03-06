@@ -40,6 +40,8 @@ where we extracted only the ratings of free apps. The steps we took above are th
 ones we took on the first screen when we used this snippet of code:
 """
 
+apps_data = ["opened app-store CSV file turned into a list of lists"]
+
 ratings = []
 for row in apps_data[1:]:
     rating = float(row[7])
