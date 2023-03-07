@@ -108,12 +108,15 @@ to extract the ratings for free gaming or social networking apps.
 
 """
 
+
 opened_file = open('AppleStore.csv')
 from csv import reader
 read_file = reader(opened_file)
 apps_data = list(read_file)
 
 free_games_social_ratings = []
+not_free_games_social_ratings = []
+
 for row in apps_data[1:]:
     rating = float(row[7])
     genre = row[11]
@@ -122,6 +125,12 @@ for row in apps_data[1:]:
     if (genre == 'Social Networking' or genre == 'Games') and price == 0:
         free_games_social_ratings.append(rating)
         
+    if (genre == 'Social Networking' or genre == 'Games') and price != 0.0:
+        not_free_games_social_ratings.append(rating)
+        
 avg_free = sum(free_games_social_ratings) / len(free_games_social_ratings)
 
 # Not-free apps (average)
+avg_not_free = sum(not_free_games_social_ratings)/len(not_free_games_social_ratings)
+
+print(avg_not_free)
