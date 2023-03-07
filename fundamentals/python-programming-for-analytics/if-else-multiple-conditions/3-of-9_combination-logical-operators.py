@@ -85,3 +85,15 @@ if (app_genre == 'Social Networking' or app_genre == 'Games') and app_price == 0
 # Output
 False
 
+"""
+In the code editor on the right, we added the code we used above to extract the ratings for free 
+gaming or social networking apps. This code is an example for the exercise below.
+
+"""
+
+# --------------------------------- #
+#
+# Instructions -- Exercise Practice
+#
+# --------------------------------- #
+
