@@ -32,3 +32,30 @@ for row in apps_data[1:]:
 
 print(len(apps_4_or_greater))
 
+# Output
+4781
+
+# Above, we did the following:
+"""
+-- Initialized an empty list named apps_4_or_greater.
+-- Looped through apps_data[1:], and for every iteration, we:
+
+-- -- Stored the rating value as a float to a variable named rating.
+-- -- Appended the rating to apps_4_or_greater if the value stored in rating was greater than or equal 
+to 4.0.
+
+
+-- Measured the length of the apps_4_or_greater list to find out the number of apps that have a rating 
+of 4.0 or greater.
+
+-- -- After the loop, the apps_4_or_greater list only stores the ratings of the apps that were rated 4.0 
+or better. The list apps_4_or_greater has 4,781 ratings that are 4.0 or greater, which means that there 
+are 4,781 apps that have a rating of 4.0 or greater.
+
+"""
+
+"""
+We can also use another approach to answer the question: we initialize a variable with a value of 0 
+and then increment that variable by 1 each time we find a rating of 4.0 or greater:
+
+"""
