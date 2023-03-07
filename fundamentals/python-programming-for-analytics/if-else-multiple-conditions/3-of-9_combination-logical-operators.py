@@ -21,3 +21,20 @@ To answer the first question, we need to isolate the apps that meet both criteri
 -- Have a price of 0.0
 
 """
+
+# To isolate these apps, we can combine or with and in a single if statement:
+
+opened_file = open('AppleStore.csv')
+from csv import reader
+read_file = reader(opened_file)
+apps_data = list(read_file)
+
+free_games_social_ratings = []
+
+for row in apps_data[1:]:
+    rating = float(row[7])
+    genre = row[11]
+    price = float(row[4])
+
+#    if (genre == 'Social Networking' or genre == 'Games') and price ==0:
+
