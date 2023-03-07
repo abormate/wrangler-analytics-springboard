@@ -97,3 +97,31 @@ gaming or social networking apps. This code is an example for the exercise below
 #
 # --------------------------------- #
 
+"""
+Compute the average rating of not-free apps with a genre that is either "Social Networking" or "Games."
+
+1. Assign the result to a variable named avg_not_free.
+
+2. Try to complete this exercise without any additional guidance. We've practiced the steps you need 
+to solve this kind of problem several times. Essentially, the code is almost identical to what we used 
+to extract the ratings for free gaming or social networking apps.
+
+"""
+
+opened_file = open('AppleStore.csv')
+from csv import reader
+read_file = reader(opened_file)
+apps_data = list(read_file)
+
+free_games_social_ratings = []
+for row in apps_data[1:]:
+    rating = float(row[7])
+    genre = row[11]
+    price = float(row[4])
+    
+    if (genre == 'Social Networking' or genre == 'Games') and price == 0:
+        free_games_social_ratings.append(rating)
+        
+avg_free = sum(free_games_social_ratings) / len(free_games_social_ratings)
+
+# Not-free apps (average)
