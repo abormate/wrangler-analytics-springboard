@@ -14,3 +14,10 @@ In the previous exercise, we computed the average rating of the apps with a genr
 
 """
 
+"""
+To answer the first question, we need to isolate the apps that meet both criteria:
+
+-- Are in either the "Social Networking" or "Games" genre
+-- Have a price of 0.0
+
+"""
