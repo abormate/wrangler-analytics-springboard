@@ -135,3 +135,5 @@ for row in apps_data[1:]:
 
 avg_rating = sum(app_rating)/len(app_rating)
 
+n_apps_more_9 = len(app_rating)
+
