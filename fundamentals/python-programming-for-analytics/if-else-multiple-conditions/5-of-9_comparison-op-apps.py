@@ -125,3 +125,13 @@ from csv import reader
 read_file = reader(opened_file)
 apps_data = list(read_file)
 
+app_rating = []
+for row in apps_data[1:]:
+    rating = float(row[7])
+    price = float(row[4])
+    
+    if price > 9.0:
+        app_rating.append(rating)
+
+avg_rating = sum(app_rating)/len(app_rating)
+
