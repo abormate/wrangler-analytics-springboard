@@ -115,6 +115,7 @@ over apps_data, don't include the header row.
 2. Determine how many apps have a price greater than $9 and assign the result to a variable named 
 n_apps_more_9. You can use the list of ratings from the previous question to find the answer.
 
-
+3. Determine how many apps have a price less than or equal to $9 and assign the result to a variable 
+named n_apps_less_9. The list of ratings from the first question can help you find a quick answer
 
 """
