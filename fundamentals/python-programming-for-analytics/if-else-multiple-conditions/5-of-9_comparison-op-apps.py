@@ -119,3 +119,8 @@ n_apps_more_9. You can use the list of ratings from the previous question to fin
 named n_apps_less_9. The list of ratings from the first question can help you find a quick answer
 
 """
+
+opened_file = open('AppleStore.csv')
+from csv import reader
+read_file = reader(opened_file)
+apps_data = list(read_file)
