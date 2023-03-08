@@ -112,4 +112,9 @@ over apps_data, don't include the header row.
 
 -- -- Find the average value of these ratings and assign the result to a variable named avg_rating
 
+2. Determine how many apps have a price greater than $9 and assign the result to a variable named 
+n_apps_more_9. You can use the list of ratings from the previous question to find the answer.
+
+
+
 """
