@@ -72,3 +72,19 @@ print(n_of_apps)
 # Output
 4781
 
+# Above, we did the following:
+"""
+
+-- Initialized a variable n_of_apps with a value of 0.
+-- Looped through apps_data[1:], and for every iteration, we did the following:
+
+-- -- Stored the rating value as a float to a variable named rating.
+-- -- Incremented the value of n_of_apps by 1 if the value stored in rating was greater than or equal to 4.0.
+
+-- Printed the value of n_of_apps to determine the number of apps with a rating of 4.0 or greater.
+   n_of_apps was incremented by 1 during the loop every time a rating was 4.0 or greater. The value of 
+   n_of_apps is 4,781 after the looping, which means that 4,781 ratings are 4.0 or greater. Each rating 
+   belongs to an app, so this means that there are 4,781 apps that have a rating of 4.0 or greater.
+
+"""
+
