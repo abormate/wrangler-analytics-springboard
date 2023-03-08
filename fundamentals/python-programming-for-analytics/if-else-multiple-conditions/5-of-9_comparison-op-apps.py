@@ -88,3 +88,13 @@ print(n_of_apps)
 
 """
 
+"""
+
+Now let's answer the other three questions:
+
+-- What is the average rating of the apps that have a price greater than $9?
+-- How many apps have a price greater than $9?
+-- How many apps have a price less than or equal to $9?
+
+"""
+
