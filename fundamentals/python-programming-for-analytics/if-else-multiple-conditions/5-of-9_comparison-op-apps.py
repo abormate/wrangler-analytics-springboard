@@ -98,3 +98,18 @@ Now let's answer the other three questions:
 
 """
 
+# ----------------------------------- #
+#
+# Practice - Exercise - Hands on
+#
+# ----------------------------------- #
+
+"""
+1. Compute the average rating of the apps that have a price greater than $9.
+
+-- -- Using a for loop, isolate the ratings of all the apps that have a price greater than $9. When you iterate 
+over apps_data, don't include the header row.
+
+-- -- Find the average value of these ratings and assign the result to a variable named avg_rating
+
+"""
