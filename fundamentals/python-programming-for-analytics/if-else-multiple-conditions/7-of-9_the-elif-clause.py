@@ -99,3 +99,17 @@ elif clauses are disregarded. If price >= 20 and price < 50 is True, then app.ap
 executes and the last elif clause is disregarded
 
 """
+
+# ----------------------------------- #
+#
+# Practice - Activity 
+#
+# ----------------------------------- #
+
+"""
+The app_ratings variable provided in the code editor includes average user rating information for a 
+few apps. Using if and elif clauses, append a statement that describes how each app rating compares 
+to the overall average user rating of the entire AppleStore.csv dataset, which is 3.52
+
+"""
+
