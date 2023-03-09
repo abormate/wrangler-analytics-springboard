@@ -44,4 +44,14 @@ print(apps_data)
 # [['Facebook', 0.0, 'free'], ['Notion', 14.99, 'affordable'], ['Astropad Standard', 29.99, 'expensive'], 
 # ['NAVIGON Europe', 74.99, 'very expensive']]
 
+"""
+When an app is free, price == 0.0 evaluates to True and app.append('free') executes. Then the computer 
+continues to do redundant operations - it checks for the following
+
+"""
+
+# price > 0 and price < 20
+# price >= 20 and price < 50
+# price >= 50
+
 
