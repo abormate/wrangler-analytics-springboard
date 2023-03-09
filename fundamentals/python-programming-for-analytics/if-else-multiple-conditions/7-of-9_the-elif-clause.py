@@ -126,3 +126,7 @@ to the overall average user rating of the entire AppleStore.csv dataset, which i
        appending the string 'better than average' to the current iteration variable
 
 """
+
+# Print app_ratings to see the results
+
+app_ratings = [['Facebook', 3.5], ['Notion', 4.0], ['Astropad Standard', 4.5], ['NAVIGON Europe', 3.5]]
