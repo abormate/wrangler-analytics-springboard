@@ -40,4 +40,8 @@ for app in apps_data:
 
 print(apps_data)
 
+# Output
+# [['Facebook', 0.0, 'free'], ['Notion', 14.99, 'affordable'], ['Astropad Standard', 29.99, 'expensive'], 
+# ['NAVIGON Europe', 74.99, 'very expensive']]
+
 
