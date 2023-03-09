@@ -83,3 +83,9 @@ print(apps_data)
 
 # The code within the body of an elif clause executes only under the following circumstances
 
+"""
+-- -- The preceding if statement (or the other preceding elif clauses) resolves to False; and
+
+-- -- The condition specified after the elif keyword evaluates to True
+
+"""
