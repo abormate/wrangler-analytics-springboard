@@ -113,3 +113,16 @@ to the overall average user rating of the entire AppleStore.csv dataset, which i
 
 """
 
+# Inside the for loop, complete the following:
+
+"""
+-- -- If the app rating is less than 3.0, then label the app as "below average" by appending the string 
+      'below average' to the current iteration variable.
+
+-- -- Else if the app rating is greater than or equal to 3.0 and below 4.0, then label the app as 
+      "roughly average" by appending the string 'roughly average' to the current iteration variable.
+
+-- -- Else if the app rating is greater than or equal to 4.0 label the app "better than average" by 
+       appending the string 'better than average' to the current iteration variable
+
+"""
