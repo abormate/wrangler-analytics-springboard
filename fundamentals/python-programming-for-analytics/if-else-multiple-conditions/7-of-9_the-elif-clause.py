@@ -54,4 +54,27 @@ continues to do redundant operations - it checks for the following
 # price >= 20 and price < 50
 # price >= 50
 
+"""
+We already know the three conditions above evaluate to False once we determine that price == 0.0 is True. 
+To stop the computer from doing redundant operations, we can use elif clauses
 
+"""
+
+apps_data = [['Facebook', 0.0], ['Notion', 14.99], ['Astropad Standard', 29.99], 
+             ['NAVIGON Europe', 74.99]]
+
+for app in apps_data:
+    price = app[1]
+
+    if price == 0.0:
+        app.append('free')
+    elif price > 0.0 and price < 20:
+        app.append('affordable')
+    elif price >= 20 and price < 50:
+        app.append('expensive')
+    elif price >= 50:
+        app.append('very expensive')
+
+print(apps_data)
+
+# Output
