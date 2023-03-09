@@ -89,3 +89,13 @@ print(apps_data)
 -- -- The condition specified after the elif keyword evaluates to True
 
 """
+
+# In our case above, if price == 0.0 is True, the computer executes app.append('free') and moves 
+# forward without executing any of the following elif clauses
+
+"""
+If price > 0.0 and price < 20 is True, then app.append('affordable') executes, and the remaining two 
+elif clauses are disregarded. If price >= 20 and price < 50 is True, then app.append('expensive') 
+executes and the last elif clause is disregarded
+
+"""
