@@ -130,3 +130,15 @@ to the overall average user rating of the entire AppleStore.csv dataset, which i
 # Print app_ratings to see the results
 
 app_ratings = [['Facebook', 3.5], ['Notion', 4.0], ['Astropad Standard', 4.5], ['NAVIGON Europe', 3.5]]
+
+for app in app_ratings:
+    rating = app[1]
+
+    if rating < 3.0:
+        app.append("below average")
+    elif rating >= 3.0 and rating < 4.0:
+        app.append("roughly average")
+    elif rating >= 4.0:
+        app.append("better than average")
+    
+print(app_ratings)
